@@ -9,3 +9,7 @@ function output() {
 }
 
 output();
+
+// 型推論によって下記のコードはエラーになる
+// let x = 1;
+// x = "hello";

@@ -187,6 +187,9 @@ function output() {
   }
 }
 output();
+// 型推論によって下記のコードはエラーになる
+// let x = 1;
+// x = "hello";
 },{"./style.css":"src/style.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -212,7 +215,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39711" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45143" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
