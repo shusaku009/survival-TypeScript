@@ -190,6 +190,9 @@ output();
 // 型推論によって下記のコードはエラーになる
 // let x = 1;
 // x = "hello";
+// let x = 1;
+// x = "hello";
+// console.log(x.subs)
 },{"./style.css":"src/style.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
